@@ -1,20 +1,83 @@
-body,
-html {
-  margin: 0;
-  padding: 0;
-}
-
 body {
-  font-family: "Open Sans", sans-serif;
-  font-size: 16px;
+  font-family: "Fix for Mac Chrome 80", system-ui, -apple-system,
+    BlinkMacSystemFont, ".SFNSText-Regular", sans-serif;
+  background-color: #e9ebee;
 }
 
-* {
-  box-sizing: border-box;
+.header {
+  background-color: #3b5998;
+  color: white;
+  display: flex;
+  justify-content: space-around;
+  height: 45px;
+  font-size: 20px;
+  align-items: center;
 }
 
-ul {
-  list-style: none;
-  margin: 0;
-  padding: 0;
+.logo {
+  font-weight: bold;
+  align-items: center;
+}
+
+.register-button {
+  background-color: #42b72a;
+  font-size: 12px;
+}
+
+.body-box {
+  display: flex;
+  justify-content: space-around;
+}
+
+.tabimg {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.tab-name {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  margin-top: 10px;
+  font-weight: bold;
+}
+
+.tab-description {
+  color: grey;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  margin-top: 10px;
+}
+
+.btn-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  margin-top: 45px;
+}
+
+.btn {
+  background-color: #e7ecef;
+  border: 1px groove grey;
+  margin-bottom: 29px;
+}
+
+.tab {
+  background-color: #feffff;
+  margin-top: 18px;
+  width: 450px;
+  padding: 15px;
+}
+
+.join-facebook {
+  font-size: 12px;
+}
+
+.content {
+  width: 981px;
 }
